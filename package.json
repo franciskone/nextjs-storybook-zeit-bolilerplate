@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/franciskone/nextjs-storybook-zeit-bolilerplate.git",
-  "author": "Francesco Cappelli <francesco.cappelli@skyscanner.net>",
+  "author": "Francesco Cappelli <francesco.cappelli.developer@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "next": "^9.3.5",
