@@ -1,7 +1,13 @@
-import * as React from 'react';
-import { storiesOf } from '@storybook/react';
-import Button from '../components/Button';
+import React from 'react';
+import Button from './Button';
+import Page from '../../pages/index';
 
-storiesOf('Button', module).add('with text', () => {
-	return <Button text="Click Me" />;
-});
+export default { title: 'Button' };
+
+export const withText = () => <Button text='Hello Button' />;
+
+export const withEmoji = () => (
+	<Button text='😀 😎 👍 💯' />
+);
+
+export const pageBlank = () => <Page />;
