@@ -10,6 +10,8 @@ Boilerplate built following this <a href="https://dev.to/aprietof/next-js-typesc
 Storybook has the following addons:
 * [Knobs](https://github.com/storybookjs/storybook/tree/master/addons/knobs)
 * [Actions](https://github.com/storybookjs/storybook/tree/master/addons/actions)
+* [Viewport](https://github.com/storybookjs/storybook/tree/master/addons/viewport)
+* [a11y](https://github.com/storybookjs/storybook/tree/master/addons/a11y)
 
 ### Typescript
 I also added the option of throwing errors in **DEV mode** when typescript checking fails. To disable this behaviour go to
