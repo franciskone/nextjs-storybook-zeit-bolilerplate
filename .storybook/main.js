@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   addons: [
     {
@@ -6,6 +8,16 @@ module.exports = {
         cssLoaderOptions: {
           modules: true,
         },
+      },
+    },
+    {
+      name: "@storybook/preset-typescript",
+      options: {
+        tsLoaderOptions: {
+          configFile: path.resolve(__dirname, "../tsconfig.json"),
+        },
+        include: [path.resolve(__dirname, "../src")],
+        transpileManager: true,
       },
     },
   ],
